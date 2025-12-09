@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>atsugiClip</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              DEFAULT: '#84CC16',
+              dark: '#65A30D',
+              light: '#ECFCCB',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="h-screen w-screen bg-slate-50 text-slate-900">
+  <div class="flex flex-col h-full">
+    <header class="border-b border-slate-200 bg-white">
+      <div class="max-w-6xl mx-auto flex items-center justify-between py-3 px-4 lg:px-6">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center text-white font-bold">
+            A
+          </div>
+          <div>
+            <div class="text-sm font-semibold tracking-wide text-slate-700">
+              厚木市オープンデータ × PLATEAU
+            </div>
+            <h1 class="text-lg lg:text-xl font-bold text-slate-900">
+              atsugiClip
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <div class="max-w-6xl mx-auto h-full flex flex-col lg:flex-row">
+        <aside class="w-full lg:w-80 border-b lg:border-b-0 lg:border-r border-slate-200 bg-white">
+          <div class="h-full flex flex-col">
+            <div class="p-4 lg:p-5 border-b border-slate-100 bg-brand-light/50">
+              <h2 class="text-sm font-semibold text-slate-800 mb-1">
+                使い方
+              </h2>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                厚木市の町ごとに色分けされたポリゴンが地図上に表示されます。
+                町をクリックすると、選択中の町名が表示されます。
+              </p>
+            </div>
+
+            <div class="p-4 lg:p-5 flex-1 flex flex-col gap-4">
+              <section>
+                <h3 class="text-xs font-semibold text-slate-500 mb-1">
+                  選択中の町
+                </h3>
+                <div class="rounded-lg border border-brand/40 bg-brand-light/40 px-3 py-2 text-sm flex items-center gap-2">
+                  <span class="inline-flex h-2 w-2 rounded-full bg-brand-dark"></span>
+                  <span id="current-town" class="font-semibold text-slate-900">
+                    なし
+                  </span>
+                </div>
+              </section>
+
+              <section class="flex-1 flex flex-col">
+                <div class="flex items-center justify-between mb-1">
+                  <h3 class="text-xs font-semibold text-slate-500">
+                    町名一覧
+                  </h3>
+                  <span class="text-[10px] text-slate-400">
+                    セレクトでその町へ移動
+                  </span>
+                </div>
+                <select
+                  id="townSelect"
+                  class="mt-1 block w-full rounded-md border border-slate-300 bg-white py-1.5 pl-2 pr-8 text-xs text-slate-800 focus:outline-none focus:ring-2 focus:ring-brand focus:border-brand"
+                >
+                  <option value="">（全体を表示）</option>
+                </select>
+              </section>
+
+            </div>
+          </div>
+        </aside>
+
+        <section class="flex-1 h-[50vh] lg:h-auto">
+          <div id="map"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBovdghWNUDU40zIZqn4oCJ739ux_f76Uw&callback=initMap"
+    async
+    defer
+  ></script>
+</body>
+</html>
+
