@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "中荻野",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "供用済面積": 157000, "供用開始年": 1989, "公園名": "中荻野総合運動公園（荻野運動公園）", "公園種別": "運動公園", "所在地市区町村名": "厚木市", "所在地都道府県名": "神奈川県", "管理市区町村": "厚木市", "管理都道府県・整備局": "神奈川県", "都市計画決定": 1, "TOWN": "中荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.32070359, 35.48064934 ] } }
+]
+}

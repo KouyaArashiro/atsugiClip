@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "中依知",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市中依知364", "収容人数": 1000, "名称": "依知中学校", "施設の種類": "避難所", "施設規模": 8159, "災害分類": "地震・水害", "経度": 139.369585, "緯度": 35.474536, "行政区域": "14212", "高さ": "8.92", "TOWN": "中依知" }, "geometry": { "type": "Point", "coordinates": [ 139.369585, 35.474536 ] } }
+]
+}

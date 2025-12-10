@@ -1,3 +1,15 @@
+const DATA_BASE_URL = "./data";
+
+const DATASET_CONFIG = {
+  shelter: { dir: "shelter" },
+  landmark: { dir: "landmark" },
+  station: { dir: "station" },
+  emergency_route: { dir: "emergency_route" },
+  railway: { dir: "railway" },
+  park: { dir: "park" },
+  border: { dir: "border" },
+};
+
 const hashStringToHue = (str) => {
   if (!str) return 210;
   let hash = 0;
@@ -10,7 +22,7 @@ const hashStringToHue = (str) => {
 const createTownColorFn = () => {
   const cache = new Map();
   const getColor = (name) => {
-    if (!name) return '#CBD5F5';
+    if (!name) return "#CBD5F5";
     if (cache.has(name)) return cache.get(name);
     const hue = hashStringToHue(name);
     const color = `hsl(${hue}, 65%, 70%)`;
@@ -21,7 +33,7 @@ const createTownColorFn = () => {
 };
 
 const createStyleFn = (getTownColor, selectedTown) => (feature) => {
-  const town = feature.getProperty('TOWN') || '';
+  const town = feature.getProperty("TOWN") || "";
   const selected = !selectedTown || town === selectedTown;
   const baseColor = getTownColor(town);
 
@@ -29,14 +41,14 @@ const createStyleFn = (getTownColor, selectedTown) => (feature) => {
     visible: selected,
     fillColor: baseColor,
     fillOpacity: selected ? 0.5 : 0.1,
-    strokeColor: '#475569',
+    strokeColor: "#475569",
     strokeWeight: selected ? 2 : 1,
   };
 };
 
 const populateTownSelect = (features, selectElement) => {
   const townSet = features.reduce((acc, feature) => {
-    const town = feature.getProperty('TOWN');
+    const town = feature.getProperty("TOWN");
     if (town) acc.add(town);
     return acc;
   }, new Set());
@@ -44,7 +56,7 @@ const populateTownSelect = (features, selectElement) => {
   Array.from(townSet)
     .sort()
     .forEach((town) => {
-      const option = document.createElement('option');
+      const option = document.createElement("option");
       option.value = town;
       option.textContent = town;
       selectElement.appendChild(option);
@@ -52,9 +64,17 @@ const populateTownSelect = (features, selectElement) => {
 };
 
 const setCurrentTownLabel = (townName) => {
-  const label = document.getElementById('current-town');
+  const label = document.getElementById("current-town");
   if (!label) return;
-  label.textContent = townName || 'なし';
+  label.textContent = townName || "なし";
+};
+
+const getCurrentTownFromDom = () => {
+  const label = document.getElementById("current-town");
+  if (!label) return null;
+  const text = label.textContent.trim();
+  if (!text || text === "なし") return null;
+  return text;
 };
 
 const fitBoundsToTown = (map, selectedTown) => {
@@ -62,7 +82,7 @@ const fitBoundsToTown = (map, selectedTown) => {
   const bounds = new google.maps.LatLngBounds();
 
   map.data.forEach((feature) => {
-    const town = feature.getProperty('TOWN') || '';
+    const town = feature.getProperty("TOWN") || "";
     if (town === selectedTown) {
       feature.getGeometry().forEachLatLng((latlng) => {
         bounds.extend(latlng);
@@ -73,6 +93,54 @@ const fitBoundsToTown = (map, selectedTown) => {
   if (!bounds.isEmpty()) {
     map.fitBounds(bounds);
   }
+};
+
+const getSelectedDatasetKeys = () => {
+  const nodes = document.querySelectorAll(".dataset-checkbox:checked");
+  return Array.from(nodes).map((el) => el.value);
+};
+
+const buildDownloadUrl = (datasetKey, townName) => {
+  const cfg = DATASET_CONFIG[datasetKey];
+  if (!cfg) return null;
+  const encodedTown = encodeURIComponent(townName);
+  return `${DATA_BASE_URL}/${cfg.dir}/${encodedTown}.geojson`;
+};
+
+const triggerDownload = (url) => {
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+};
+
+const setupDownloadButton = () => {
+  const button = document.getElementById("downloadButton");
+  if (!button) return;
+
+  button.addEventListener("click", () => {
+    const town = getCurrentTownFromDom();
+    const datasetKeys = getSelectedDatasetKeys();
+
+    if (!town) {
+      alert("町を選択してください。");
+      return;
+    }
+
+    if (datasetKeys.length === 0) {
+      alert("ダウンロードする項目を選択してください。");
+      return;
+    }
+
+    datasetKeys.forEach((key) => {
+      const url = buildDownloadUrl(key, town);
+      if (url) {
+        triggerDownload(url);
+      }
+    });
+  });
 };
 
 const createApp = ({
@@ -104,7 +172,7 @@ const createApp = ({
   const attachDataEvents = (map) => {
     const infoWindow = new google.maps.InfoWindow();
 
-    map.data.addListener('mouseover', (event) => {
+    map.data.addListener("mouseover", (event) => {
       map.data.revertStyle();
       map.data.overrideStyle(event.feature, {
         strokeWeight: 3,
@@ -112,16 +180,16 @@ const createApp = ({
       });
     });
 
-    map.data.addListener('mouseout', () => {
+    map.data.addListener("mouseout", () => {
       map.data.revertStyle();
     });
 
-    map.data.addListener('click', (event) => {
+    map.data.addListener("click", (event) => {
       const town =
-        event.feature.getProperty('TOWN') ||
-        event.feature.getProperty('N03_003') ||
-        event.feature.getProperty('name') ||
-        '不明';
+        event.feature.getProperty("TOWN") ||
+        event.feature.getProperty("N03_003") ||
+        event.feature.getProperty("name") ||
+        "不明";
 
       currentTownLabelSetter(town);
 
@@ -142,7 +210,7 @@ const createApp = ({
     const townSelect = document.getElementById(townSelectId);
 
     if (!mapElement || !townSelect) {
-      console.error('必要なDOM要素が見つかりません');
+      console.error("必要なDOM要素が見つかりません");
       return;
     }
 
@@ -155,13 +223,15 @@ const createApp = ({
 
     initDataLayer(map, (features) => {
       populateTownSelect(features, townSelect);
-      applyTownFilter(map, '');
+      applyTownFilter(map, "");
     });
 
-    townSelect.addEventListener('change', (event) => {
+    townSelect.addEventListener("change", (event) => {
       const selectedTown = event.target.value;
       applyTownFilter(map, selectedTown);
     });
+
+    setupDownloadButton();
   };
 
   return { init };
@@ -169,9 +239,9 @@ const createApp = ({
 
 window.initMap = () => {
   const app = createApp({
-    geoJsonUrl: 'townInfo.geojson',
-    mapElementId: 'map',
-    townSelectId: 'townSelect',
+    geoJsonUrl: "townInfo.geojson",
+    mapElementId: "map",
+    townSelectId: "townSelect",
     currentTownLabelSetter: setCurrentTownLabel,
   });
 

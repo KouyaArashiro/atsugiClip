@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "愛甲",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市愛甲1809", "収容人数": 1500, "名称": "東名中学校", "施設の種類": "避難所", "施設規模": 6357, "災害分類": "地震・水害", "経度": 139.353003, "緯度": 35.420709, "行政区域": "14212", "高さ": "", "TOWN": "愛甲" }, "geometry": { "type": "Point", "coordinates": [ 139.353003, 35.420709 ] } }
+]
+}

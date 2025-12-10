@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "船子",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "東名厚木病院", "種類": "病院", "高さ": 20.02, "TOWN": "船子" }, "geometry": { "type": "Point", "coordinates": [ 139.354291126, 35.425597997 ] } }
+]
+}

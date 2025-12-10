@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "泉町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木旭郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "泉町" }, "geometry": { "type": "Point", "coordinates": [ 139.366891, 35.439068 ] } }
+]
+}

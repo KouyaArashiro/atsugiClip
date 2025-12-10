@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "王子",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木東高等学校", "種類": "学校", "高さ": 0.0, "TOWN": "王子" }, "geometry": { "type": "Point", "coordinates": [ 139.34431, 35.456205 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木商業高等学校", "種類": "学校", "高さ": 20.026, "TOWN": "王子" }, "geometry": { "type": "Point", "coordinates": [ 139.342754, 35.45726 ] } }
+]
+}

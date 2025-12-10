@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "上古沢",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "供用済面積": 139283, "供用開始年": 1992, "公園名": "上古沢緑地（あつぎつつじの丘公園）", "公園種別": "都市緑地", "所在地市区町村名": "厚木市", "所在地都道府県名": "神奈川県", "管理市区町村": "厚木市", "管理都道府県・整備局": "神奈川県", "都市計画決定": 2, "TOWN": "上古沢" }, "geometry": { "type": "Point", "coordinates": [ 139.306813690000013, 35.45571625 ] } }
+]
+}

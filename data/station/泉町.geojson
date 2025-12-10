@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "泉町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "事業者種別": "民営鉄道", "路線名": "小田原線", "運営会社": "小田急電鉄", "鉄道区分": "普通鉄道", "駅名": "本厚木", "高さ": "27.308", "TOWN": "泉町" }, "geometry": { "type": "Point", "coordinates": [ 139.364375, 35.43921 ] } }
+]
+}

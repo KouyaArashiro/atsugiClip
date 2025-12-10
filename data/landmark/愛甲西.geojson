@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "愛甲西",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木愛甲郵便局", "種類": "郵便局", "高さ": 7.284, "TOWN": "愛甲西" }, "geometry": { "type": "Point", "coordinates": [ 139.331327623, 35.426067494 ] } },
+{ "type": "Feature", "properties": { "名称": "愛甲小学校", "種類": "学校", "高さ": 17.921, "TOWN": "愛甲西" }, "geometry": { "type": "Point", "coordinates": [ 139.339103, 35.426158 ] } }
+]
+}

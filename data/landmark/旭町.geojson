@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "旭町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木旭町五郵便局", "種類": "郵便局", "高さ": 8.017, "TOWN": "旭町" }, "geometry": { "type": "Point", "coordinates": [ 139.365002, 35.432569 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署旭町交番", "種類": "警察署", "高さ": 0.0, "TOWN": "旭町" }, "geometry": { "type": "Point", "coordinates": [ 139.36278, 35.435291 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木第二小学校", "種類": "学校", "高さ": 17.908, "TOWN": "旭町" }, "geometry": { "type": "Point", "coordinates": [ 139.362003, 35.433485 ] } }
+]
+}

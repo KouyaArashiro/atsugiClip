@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "関口",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "神奈川中央病院", "種類": "病院", "高さ": 18.536, "TOWN": "関口" }, "geometry": { "type": "Point", "coordinates": [ 139.366593013999989, 35.49117098 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署依知交番", "種類": "警察署", "高さ": 0.0, "TOWN": "関口" }, "geometry": { "type": "Point", "coordinates": [ 139.364113, 35.490229 ] } },
+{ "type": "Feature", "properties": { "名称": "依知小学校", "種類": "学校", "高さ": 16.168, "TOWN": "関口" }, "geometry": { "type": "Point", "coordinates": [ 139.363335, 35.491562 ] } }
+]
+}

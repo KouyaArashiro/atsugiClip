@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "寿町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木簡易裁判所", "種類": "国の機関", "高さ": 7.979, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.362426613999986, 35.444684493 ] } },
+{ "type": "Feature", "properties": { "名称": "横浜地方検察庁厚木区検察庁", "種類": "国の機関", "高さ": 15.443, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.362782534, 35.444749313 ] } },
+{ "type": "Feature", "properties": { "名称": "横浜地方法務局厚木支局", "種類": "国の機関", "高さ": 15.443, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.362782534, 35.444734313 ] } },
+{ "type": "Feature", "properties": { "名称": "神奈川県厚木公共職業安定所", "種類": "国の機関", "高さ": 9.088, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.362976536, 35.445095312 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市消防本部", "種類": "消防署", "高さ": 19.338, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.361281, 35.445401 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市厚木消防署", "種類": "消防署", "高さ": 19.338, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.361281, 35.445401 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市郷土資料館", "種類": "博物館・美術館", "高さ": 0.0, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.361602, 35.447503 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木小学校", "種類": "学校", "高さ": 17.902, "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.363003, 35.447095 ] } }
+]
+}

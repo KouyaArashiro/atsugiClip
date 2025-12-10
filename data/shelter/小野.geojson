@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "小野",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市小野301-10", "収容人数": 1000, "名称": "玉川中学校", "施設の種類": "避難所", "施設規模": 7565, "災害分類": "地震・水害", "経度": 139.321256, "緯度": 35.430234, "行政区域": "14212", "高さ": "16.914", "TOWN": "小野" }, "geometry": { "type": "Point", "coordinates": [ 139.321256, 35.430234 ] } }
+]
+}

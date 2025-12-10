@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "森の里",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "医療法人鉄蕉会　亀田森の里病院", "種類": "病院", "高さ": 15.355, "TOWN": "森の里" }, "geometry": { "type": "Point", "coordinates": [ 139.310560563, 35.446150403 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木森の里郵便局", "種類": "郵便局", "高さ": 7.006, "TOWN": "森の里" }, "geometry": { "type": "Point", "coordinates": [ 139.309118, 35.445482 ] } },
+{ "type": "Feature", "properties": { "名称": "森の里小学校", "種類": "学校", "高さ": 17.195, "TOWN": "森の里" }, "geometry": { "type": "Point", "coordinates": [ 139.306063, 35.444788 ] } },
+{ "type": "Feature", "properties": { "名称": "森の里中学校", "種類": "学校", "高さ": 17.953, "TOWN": "森の里" }, "geometry": { "type": "Point", "coordinates": [ 139.304924, 35.44826 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "妻田南",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "供用済面積": 609, "供用開始年": 1988, "公園名": "中河原けやき公園", "公園種別": "街区公園", "所在地市区町村名": "厚木市", "所在地都道府県名": "神奈川県", "管理市区町村": "厚木市", "管理都道府県・整備局": "神奈川県", "都市計画決定": 2, "TOWN": "妻田南" }, "geometry": { "type": "Point", "coordinates": [ 139.36213364, 35.45476203 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "中町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "仁厚会病院", "種類": "病院", "高さ": 31.281, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.360759113, 35.440698768 ] } },
+{ "type": "Feature", "properties": { "名称": "神奈川労働局厚木労働基準監督署", "種類": "国の機関", "高さ": 33.395, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.360914004, 35.439589856 ] } },
+{ "type": "Feature", "properties": { "名称": "神奈川工科大学厚木市子ども科学館", "種類": "博物館・美術館", "高さ": 0.0, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.362449, 35.439522 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署本厚木駅前交番", "種類": "警察署", "高さ": 7.794, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.36459546, 35.44005054 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木総合専門学校", "種類": "学校", "高さ": 0.361, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.362009, 35.440071 ] } },
+{ "type": "Feature", "properties": { "名称": "ＹＭＣＡ健康福祉専門学校", "種類": "学校", "高さ": 23.043, "TOWN": "中町" }, "geometry": { "type": "Point", "coordinates": [ 139.360981, 35.439226 ] } }
+]
+}

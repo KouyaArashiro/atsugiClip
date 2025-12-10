@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "毛利台",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市毛利台1-23-1", "収容人数": 1000, "名称": "毛利台小学校", "施設の種類": "避難所", "施設規模": 7065, "災害分類": "地震・水害", "経度": 139.330311, "緯度": 35.441234, "行政区域": "14212", "高さ": "16.574", "TOWN": "毛利台" }, "geometry": { "type": "Point", "coordinates": [ 139.330311, 35.441234 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "戸田",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市戸田545", "収容人数": 1000, "名称": "戸田小学校", "施設の種類": "避難所", "施設規模": 7276, "災害分類": "地震・水害", "経度": 139.360445, "緯度": 35.403516, "行政区域": "14212", "高さ": "14.19", "TOWN": "戸田" }, "geometry": { "type": "Point", "coordinates": [ 139.360445, 35.403516 ] } }
+]
+}

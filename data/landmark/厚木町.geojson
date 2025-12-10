@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "厚木町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木東町郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "厚木町" }, "geometry": { "type": "Point", "coordinates": [ 139.369836, 35.443512 ] } }
+]
+}

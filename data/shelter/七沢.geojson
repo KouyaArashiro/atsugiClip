@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "七沢",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市七沢150-1", "収容人数": 1000, "名称": "玉川小学校", "施設の種類": "避難所", "施設規模": 4614, "災害分類": "地震・水害", "経度": 139.303674, "緯度": 35.439261, "行政区域": "14212", "高さ": "17.832", "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.303674, 35.439261 ] } }
+]
+}

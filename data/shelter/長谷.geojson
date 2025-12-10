@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "長谷",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市長谷1085", "収容人数": 1000, "名称": "南毛利小学校", "施設の種類": "避難所", "施設規模": 7522, "災害分類": "地震・水害", "経度": 139.339532, "緯度": 35.435068, "行政区域": "14212", "高さ": "", "TOWN": "長谷" }, "geometry": { "type": "Point", "coordinates": [ 139.339532, 35.435068 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "小野",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木佐藤病院", "種類": "病院", "高さ": 15.815, "TOWN": "小野" }, "geometry": { "type": "Point", "coordinates": [ 139.311963383, 35.433150185 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署玉川駐在所", "種類": "警察署", "高さ": 6.527, "TOWN": "小野" }, "geometry": { "type": "Point", "coordinates": [ 139.310672, 35.435258 ] } },
+{ "type": "Feature", "properties": { "名称": "玉川中学校", "種類": "学校", "高さ": 16.914, "TOWN": "小野" }, "geometry": { "type": "Point", "coordinates": [ 139.321256, 35.430234 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "愛甲西",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市愛甲2783", "収容人数": 1000, "名称": "愛甲小学校", "施設の種類": "避難所", "施設規模": 7163, "災害分類": "地震・水害", "経度": 139.339143, "緯度": 35.42618, "行政区域": "14212", "高さ": "17.921", "TOWN": "愛甲西" }, "geometry": { "type": "Point", "coordinates": [ 139.339143, 35.42618 ] } }
+]
+}

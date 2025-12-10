@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "上荻野",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "相州病院", "種類": "病院", "高さ": 0.0, "TOWN": "上荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.308669414, 35.505996004 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木上荻野郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "上荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.313701, 35.499893 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署上荻野駐在所", "種類": "警察署", "高さ": 0.0, "TOWN": "上荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.313562, 35.499727 ] } },
+{ "type": "Feature", "properties": { "名称": "荻野小学校", "種類": "学校", "高さ": 17.004, "TOWN": "上荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.320812, 35.491728 ] } },
+{ "type": "Feature", "properties": { "名称": "上荻野小学校", "種類": "学校", "高さ": 6.447, "TOWN": "上荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.311785, 35.507143 ] } }
+]
+}

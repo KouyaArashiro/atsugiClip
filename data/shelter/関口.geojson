@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "関口",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市関口872-1", "収容人数": 1000, "名称": "依知小学校", "施設の種類": "避難所", "施設規模": 5355, "災害分類": "地震・水害", "経度": 139.363335, "緯度": 35.491562, "行政区域": "14212", "高さ": "16.168", "TOWN": "関口" }, "geometry": { "type": "Point", "coordinates": [ 139.363335, 35.491562 ] } }
+]
+}

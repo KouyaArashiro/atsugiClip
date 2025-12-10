@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "東町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "医療法人仁愛会　近藤病院", "種類": "病院", "高さ": 14.988, "TOWN": "東町" }, "geometry": { "type": "Point", "coordinates": [ 139.369892004, 35.444455801 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "森の里青山",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木西高等学校", "種類": "学校", "高さ": 14.567, "TOWN": "森の里青山" }, "geometry": { "type": "Point", "coordinates": [ 139.31309, 35.448732 ] } }
+]
+}

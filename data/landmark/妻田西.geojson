@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "妻田西",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木妻田郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "妻田西" }, "geometry": { "type": "Point", "coordinates": [ 139.357642, 35.460538 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署妻田交番", "種類": "警察署", "高さ": 0.0, "TOWN": "妻田西" }, "geometry": { "type": "Point", "coordinates": [ 139.357669, 35.460371 ] } },
+{ "type": "Feature", "properties": { "名称": "清水小学校", "種類": "学校", "高さ": 18.217, "TOWN": "妻田西" }, "geometry": { "type": "Point", "coordinates": [ 139.353586, 35.465482 ] } }
+]
+}

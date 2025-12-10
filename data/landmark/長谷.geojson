@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "長谷",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木市厚木消防署南毛利分署", "種類": "消防署", "高さ": 7.06, "TOWN": "長谷" }, "geometry": { "type": "Point", "coordinates": [ 139.330477, 35.434262 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署南毛利駐在所", "種類": "警察署", "高さ": 0.0, "TOWN": "長谷" }, "geometry": { "type": "Point", "coordinates": [ 139.337532, 35.434457 ] } },
+{ "type": "Feature", "properties": { "名称": "南毛利小学校", "種類": "学校", "高さ": 0.0, "TOWN": "長谷" }, "geometry": { "type": "Point", "coordinates": [ 139.339532, 35.435068 ] } }
+]
+}

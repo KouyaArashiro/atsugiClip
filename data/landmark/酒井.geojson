@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "酒井",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "相川郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "酒井" }, "geometry": { "type": "Point", "coordinates": [ 139.364982524, 35.412573188 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市厚木消防署相川分署", "種類": "消防署", "高さ": 6.027, "TOWN": "酒井" }, "geometry": { "type": "Point", "coordinates": [ 139.357224, 35.411376 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署酒井交番", "種類": "警察署", "高さ": 0.0, "TOWN": "酒井" }, "geometry": { "type": "Point", "coordinates": [ 139.363474, 35.414154 ] } },
+{ "type": "Feature", "properties": { "名称": "相川中学校", "種類": "学校", "高さ": 14.17, "TOWN": "酒井" }, "geometry": { "type": "Point", "coordinates": [ 139.36489, 35.408432 ] } }
+]
+}

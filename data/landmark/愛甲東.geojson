@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "愛甲東",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "愛甲石田駅前郵便局", "種類": "郵便局", "高さ": 7.027, "TOWN": "愛甲東" }, "geometry": { "type": "Point", "coordinates": [ 139.344596754, 35.417442 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "下荻野",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木北郵便局", "種類": "郵便局", "高さ": 14.962, "TOWN": "下荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.339831, 35.489995 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市北消防署", "種類": "消防署", "高さ": 0.0, "TOWN": "下荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.333838, 35.48309 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署下荻野交番", "種類": "警察署", "高さ": 6.976, "TOWN": "下荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.341226, 35.478702 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木北高等学校", "種類": "学校", "高さ": 0.0, "TOWN": "下荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.337671, 35.48734 ] } },
+{ "type": "Feature", "properties": { "名称": "神奈川工科大学", "種類": "学校", "高さ": 0.0, "TOWN": "下荻野" }, "geometry": { "type": "Point", "coordinates": [ 139.341726, 35.48634 ] } }
+]
+}

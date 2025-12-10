@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "七沢",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "神奈川リハビリテーション病院", "種類": "病院", "高さ": 0.0, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.296248248000012, 35.440037559 ] } },
+{ "type": "Feature", "properties": { "名称": "医療法人社団 葵会　ＡＯＩ七沢リハビリテーション病院", "種類": "病院", "高さ": 10.849, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.292362677999989, 35.447877746 ] } },
+{ "type": "Feature", "properties": { "名称": "七沢郵便局", "種類": "郵便局", "高さ": 4.549, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.298508, 35.442121 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市厚木消防署玉川分署", "種類": "消防署", "高さ": 10.933, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.297119, 35.444343 ] } },
+{ "type": "Feature", "properties": { "名称": "森の民話館", "種類": "博物館・美術館", "高さ": 10.297, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.300588, 35.44725 ] } },
+{ "type": "Feature", "properties": { "名称": "七沢希望の丘初等学校", "種類": "学校", "高さ": 13.664, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.294446, 35.437002 ] } },
+{ "type": "Feature", "properties": { "名称": "玉川小学校", "種類": "学校", "高さ": 17.832, "TOWN": "七沢" }, "geometry": { "type": "Point", "coordinates": [ 139.303674, 35.439261 ] } }
+]
+}

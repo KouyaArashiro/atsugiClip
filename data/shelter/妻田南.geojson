@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "妻田南",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市妻田南1-14-1", "収容人数": 1000, "名称": "妻田小学校", "施設の種類": "避難所", "施設規模": 6299, "災害分類": "地震・水害", "経度": 139.361586, "緯度": 35.452289, "行政区域": "14212", "高さ": "15.64", "TOWN": "妻田南" }, "geometry": { "type": "Point", "coordinates": [ 139.361586, 35.452289 ] } }
+]
+}

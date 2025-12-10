@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "寿町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市寿町3-15-34", "収容人数": 1000, "名称": "厚木小学校", "施設の種類": "避難所", "施設規模": 7377, "災害分類": "地震・水害", "経度": 139.363003, "緯度": 35.447095, "行政区域": "14212", "高さ": "17.902", "TOWN": "寿町" }, "geometry": { "type": "Point", "coordinates": [ 139.363003, 35.447095 ] } }
+]
+}

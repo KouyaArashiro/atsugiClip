@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "林",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "林中学校", "種類": "学校", "高さ": 16.544, "TOWN": "林" }, "geometry": { "type": "Point", "coordinates": [ 139.352003, 35.458149 ] } }
+]
+}

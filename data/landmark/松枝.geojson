@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "松枝",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "医療法人弘徳会　愛光病院", "種類": "病院", "高さ": 17.759, "TOWN": "松枝" }, "geometry": { "type": "Point", "coordinates": [ 139.356475837, 35.451343895 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木松枝町郵便局", "種類": "郵便局", "高さ": 4.543, "TOWN": "松枝" }, "geometry": { "type": "Point", "coordinates": [ 139.363642, 35.448123 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木看護専門学校", "種類": "学校", "高さ": 18.592, "TOWN": "松枝" }, "geometry": { "type": "Point", "coordinates": [ 139.357556, 35.450875 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "妻田西",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市妻田西3-18-1", "収容人数": 1000, "名称": "清水小学校", "施設の種類": "避難所", "施設規模": 8507, "災害分類": "地震・水害", "経度": 139.353586, "緯度": 35.465482, "行政区域": "14212", "高さ": "18.217", "TOWN": "妻田西" }, "geometry": { "type": "Point", "coordinates": [ 139.353586, 35.465482 ] } }
+]
+}

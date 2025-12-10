@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "田村町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木郵便局", "種類": "郵便局", "高さ": 11.532, "TOWN": "田村町" }, "geometry": { "type": "Point", "coordinates": [ 139.357753, 35.438818 ] } }
+]
+}

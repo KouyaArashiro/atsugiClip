@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "中依知",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "依知中学校", "種類": "学校", "高さ": 8.92, "TOWN": "中依知" }, "geometry": { "type": "Point", "coordinates": [ 139.369585, 35.474536 ] } }
+]
+}

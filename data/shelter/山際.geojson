@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "山際",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市山際658", "収容人数": 1000, "名称": "北小学校", "施設の種類": "避難所", "施設規模": 7815, "災害分類": "地震・水害", "経度": 139.359002, "緯度": 35.50406, "行政区域": "14212", "高さ": "", "TOWN": "山際" }, "geometry": { "type": "Point", "coordinates": [ 139.359002, 35.50406 ] } }
+]
+}

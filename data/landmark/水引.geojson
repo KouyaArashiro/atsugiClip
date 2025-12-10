@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "水引",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木市立病院", "種類": "病院", "高さ": 0.0, "TOWN": "水引" }, "geometry": { "type": "Point", "coordinates": [ 139.358965352000013, 35.448206299 ] } },
+{ "type": "Feature", "properties": { "名称": "東京国税局厚木税務署", "種類": "国の機関", "高さ": 26.158, "TOWN": "水引" }, "geometry": { "type": "Point", "coordinates": [ 139.358587545, 35.447012302 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署", "種類": "警察署", "高さ": 10.463, "TOWN": "水引" }, "geometry": { "type": "Point", "coordinates": [ 139.35767, 35.445539 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木中学校", "種類": "学校", "高さ": 0.0, "TOWN": "水引" }, "geometry": { "type": "Point", "coordinates": [ 139.359725, 35.444762 ] } }
+]
+}

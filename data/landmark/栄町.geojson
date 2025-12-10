@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "栄町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木保健所", "種類": "保健所", "高さ": 0.0, "TOWN": "栄町" }, "geometry": { "type": "Point", "coordinates": [ 139.359972, 35.441861 ] } }
+]
+}

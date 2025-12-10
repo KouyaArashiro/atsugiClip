@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "飯山",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "小鮎郵便局", "種類": "郵便局", "高さ": 0.0, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.321395, 35.464203 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木市北消防署小鮎分署", "種類": "消防署", "高さ": 0.0, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.324978, 35.45862 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署小鮎駐在所", "種類": "警察署", "高さ": 0.0, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.322283, 35.463897 ] } },
+{ "type": "Feature", "properties": { "名称": "小鮎小学校", "種類": "学校", "高さ": 0.0, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.322783, 35.463064 ] } },
+{ "type": "Feature", "properties": { "名称": "飯山小学校", "種類": "学校", "高さ": 18.443, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.320561, 35.472535 ] } },
+{ "type": "Feature", "properties": { "名称": "小鮎中学校", "種類": "学校", "高さ": 0.0, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.323283, 35.462064 ] } },
+{ "type": "Feature", "properties": { "名称": "東京工芸大学", "種類": "学校", "高さ": 21.334, "TOWN": "飯山" }, "geometry": { "type": "Point", "coordinates": [ 139.33156, 35.464037 ] } }
+]
+}

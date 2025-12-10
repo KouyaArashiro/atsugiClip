@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "温水",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "医療法人沖縄徳洲会　湘南厚木病院", "種類": "病院", "高さ": 26.667, "TOWN": "温水" }, "geometry": { "type": "Point", "coordinates": [ 139.353559181, 35.432707463 ] } },
+{ "type": "Feature", "properties": { "名称": "湘北短期大学", "種類": "学校", "高さ": 17.711, "TOWN": "温水" }, "geometry": { "type": "Point", "coordinates": [ 139.346865, 35.434957 ] } },
+{ "type": "Feature", "properties": { "名称": "東京農業大学", "種類": "学校", "高さ": 0.0, "TOWN": "温水" }, "geometry": { "type": "Point", "coordinates": [ 139.34676, 35.432082 ] } }
+]
+}

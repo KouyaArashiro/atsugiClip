@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "緑ケ丘",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木緑ヶ丘郵便局", "種類": "郵便局", "高さ": 11.269, "TOWN": "緑ケ丘" }, "geometry": { "type": "Point", "coordinates": [ 139.342115, 35.453205 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署緑ヶ丘交番", "種類": "警察署", "高さ": 0.0, "TOWN": "緑ケ丘" }, "geometry": { "type": "Point", "coordinates": [ 139.342504, 35.452872 ] } },
+{ "type": "Feature", "properties": { "名称": "緑ケ丘小学校", "種類": "学校", "高さ": 13.319, "TOWN": "緑ケ丘" }, "geometry": { "type": "Point", "coordinates": [ 139.343171, 35.454844 ] } }
+]
+}

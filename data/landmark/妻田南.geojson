@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "妻田南",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "妻田小学校", "種類": "学校", "高さ": 15.64, "TOWN": "妻田南" }, "geometry": { "type": "Point", "coordinates": [ 139.361586, 35.452289 ] } }
+]
+}

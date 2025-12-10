@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "及川",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "供用済面積": 1499, "供用開始年": 1983, "公園名": "山ノ上剣公園", "公園種別": "街区公園", "所在地市区町村名": "厚木市", "所在地都道府県名": "神奈川県", "管理市区町村": "厚木市", "管理都道府県・整備局": "神奈川県", "都市計画決定": 2, "TOWN": "及川" }, "geometry": { "type": "Point", "coordinates": [ 139.34931264, 35.46669428 ] } }
+]
+}

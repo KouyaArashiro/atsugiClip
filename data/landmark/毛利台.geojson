@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "毛利台",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木毛利台郵便局", "種類": "郵便局", "高さ": 5.391, "TOWN": "毛利台" }, "geometry": { "type": "Point", "coordinates": [ 139.330005, 35.439928 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署毛利台駐在所", "種類": "警察署", "高さ": 6.584, "TOWN": "毛利台" }, "geometry": { "type": "Point", "coordinates": [ 139.329977, 35.440123 ] } },
+{ "type": "Feature", "properties": { "名称": "毛利台小学校", "種類": "学校", "高さ": 16.574, "TOWN": "毛利台" }, "geometry": { "type": "Point", "coordinates": [ 139.330311, 35.441234 ] } }
+]
+}

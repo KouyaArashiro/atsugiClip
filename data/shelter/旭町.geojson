@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "旭町",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "レベル": 1, "住所": "神奈川県厚木市旭町5-38-1", "収容人数": 1500, "名称": "厚木第二小学校", "施設の種類": "避難所", "施設規模": 7991, "災害分類": "地震・水害", "経度": 139.362003, "緯度": 35.433485, "行政区域": "14212", "高さ": "17.908", "TOWN": "旭町" }, "geometry": { "type": "Point", "coordinates": [ 139.362003, 35.433485 ] } }
+]
+}

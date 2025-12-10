@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "三田",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4612" } },
+"features": [
+{ "type": "Feature", "properties": { "名称": "厚木市北消防署睦合分署", "種類": "消防署", "高さ": 12.691, "TOWN": "三田" }, "geometry": { "type": "Point", "coordinates": [ 139.354503, 35.473536 ] } },
+{ "type": "Feature", "properties": { "名称": "厚木警察署三田駐在所", "種類": "警察署", "高さ": 0.0, "TOWN": "三田" }, "geometry": { "type": "Point", "coordinates": [ 139.342921, 35.497117 ] } },
+{ "type": "Feature", "properties": { "名称": "三田小学校", "種類": "学校", "高さ": 16.044, "TOWN": "三田" }, "geometry": { "type": "Point", "coordinates": [ 139.347476, 35.482424 ] } },
+{ "type": "Feature", "properties": { "名称": "睦合中学校", "種類": "学校", "高さ": 18.137, "TOWN": "三田" }, "geometry": { "type": "Point", "coordinates": [ 139.343948, 35.478619 ] } },
+{ "type": "Feature", "properties": { "名称": "睦合東中学校", "種類": "学校", "高さ": 21.938, "TOWN": "三田" }, "geometry": { "type": "Point", "coordinates": [ 139.362169, 35.469398 ] } }
+]
+}
