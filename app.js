@@ -116,11 +116,20 @@ const triggerDownload = (url) => {
   document.body.removeChild(a);
 };
 
+const checkFileExists = async (url) => {
+  try {
+    const res = await fetch(url, { method: "HEAD" });
+    return res.ok;
+  } catch (e) {
+    return false;
+  }
+};
+
 const setupDownloadButton = () => {
   const button = document.getElementById("downloadButton");
   if (!button) return;
 
-  button.addEventListener("click", () => {
+  button.addEventListener("click", async () => {
     const town = getCurrentTownFromDom();
     const datasetKeys = getSelectedDatasetKeys();
 
@@ -134,11 +143,24 @@ const setupDownloadButton = () => {
       return;
     }
 
-    datasetKeys.forEach((key) => {
+    const existingUrls = [];
+
+    for (const key of datasetKeys) {
       const url = buildDownloadUrl(key, town);
-      if (url) {
-        triggerDownload(url);
+      if (!url) continue;
+      const ok = await checkFileExists(url);
+      if (ok) {
+        existingUrls.push(url);
       }
+    }
+
+    if (existingUrls.length === 0) {
+      alert("選択中の町に該当項目はありません。");
+      return;
+    }
+
+    existingUrls.forEach((url) => {
+      triggerDownload(url);
     });
   });
 };
