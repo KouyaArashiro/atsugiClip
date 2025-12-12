@@ -1,13 +1,13 @@
 const DATA_BASE_URL = "./data";
 
 const DATASET_CONFIG = {
-  shelter: { dir: "shelter" },
-  landmark: { dir: "landmark" },
-  station: { dir: "station" },
-  emergency_route: { dir: "emergency_route" },
-  railway: { dir: "railway" },
-  park: { dir: "park" },
-  border: { dir: "border" },
+  shelter: { dir: "shelter", suffix: "避難施設" },
+  landmark: { dir: "landmark", suffix: "ランドマーク" },
+  station: { dir: "station", suffix: "鉄道駅" },
+  emergency_route: { dir: "emergency_route", suffix: "緊急輸送道路" },
+  railway: { dir: "railway", suffix: "鉄道" },
+  park: { dir: "park", suffix: "公園" },
+  border: { dir: "border", suffix: "行政界" },
 };
 
 const hashStringToHue = (str) => {
@@ -107,10 +107,10 @@ const buildDownloadUrl = (datasetKey, townName) => {
   return `${DATA_BASE_URL}/${cfg.dir}/${encodedTown}.geojson`;
 };
 
-const triggerDownload = (url) => {
+const triggerDownload = (url, fileName) => {
   const a = document.createElement("a");
   a.href = url;
-  a.download = "";
+  a.download = fileName || "";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -143,24 +143,27 @@ const setupDownloadButton = () => {
       return;
     }
 
-    const existingUrls = [];
+    const existingItems = [];
 
     for (const key of datasetKeys) {
       const url = buildDownloadUrl(key, town);
       if (!url) continue;
       const ok = await checkFileExists(url);
       if (ok) {
-        existingUrls.push(url);
+        existingItems.push({ key, url });
       }
     }
 
-    if (existingUrls.length === 0) {
+    if (existingItems.length === 0) {
       alert("選択中の町に該当項目はありません。");
       return;
     }
 
-    existingUrls.forEach((url) => {
-      triggerDownload(url);
+    existingItems.forEach(({ key, url }) => {
+      const cfg = DATASET_CONFIG[key] || {};
+      const suffix = cfg.suffix || key;
+      const fileName = `${town}_${suffix}.geojson`;
+      triggerDownload(url, fileName);
     });
   });
 };
@@ -238,7 +241,7 @@ const createApp = ({
 
     const map = new google.maps.Map(mapElement, {
       center: { lat: 35.443, lng: 139.36 },
-      zoom: 13,
+      zoom: 21.0,
     });
 
     attachDataEvents(map);
